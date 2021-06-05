@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+body{
+    font-family: 'KoHo', sans-serif;
+}
+
+h1, h2{
+    color: #fff;
+}
+
+body{
+    /* background-image: url(../img/fondo.jpg); */
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+}
+.cont-c{
+    width: 300px;
+    margin: 0 auto;
+    background: #2d2b37;
+    padding: 10px;
+    color: #fff;
+}
+
+.cont-c table tr .pantalla{
+    background: #2d2b37;
+}
+
+.cont-c table{
+    margin: 0 auto;
+}
+
+.cont-c table tr td button{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    margin:5px;
+    border-radius: 50%;
+    border-style: none;
+    background: #2d2b37;
+    color: #fff;
+}
+
+.cont-c table tr td button:hover{
+    background: #bfbfc1;
+}
+
+.cont-c #dividir, #multiplicar, #suma, #resta{
+    background: #bfbfc1;
+    width: 60px;
+    height: 60px;
+    color: #000;
+}
+
+.cont-c #igual, #clear{
+    background: #7d5dfe;
+    width: 60px;
+    height: 60px;
+    color: 1;
+}
+
+.cont-c #dividir:hover{
+    color: #fff;
+}
+
+.cont-c #suma:hover{
+    color: #fff;
+}
+
+.cont-c #multiplicar:hover{
+    color: #fff;
+}
+
+.cont-c #resta:hover{
+    color: #fff;
+}
+
+.cont-c #igual:hover{
+    color: #000;
+}
+
+.cont-c #clear:hover{
+    color: #000;
+}
+
+.cont-c #uno:hover{
+    color: #000;
+}
+
+.cont-c #dos:hover{
+    color: #000;
+}
+
+.cont-c #tres:hover{
+    color: #000;
+}
+
+.cont-c #cuantro:hover{
+    color: #000;
+}
+
+.cont-c #cinco:hover{
+    color: #000;
+}
+
+.cont-c #seis:hover{
+    color: #000;
+}
+
+.cont-c #siete:hover{
+    color: #000;
+}
+
+.cont-c #ocho:hover{
+    color: #000;
+}
+
+.cont-c #nueve:hover{
+    color: #000;
+}
+
+.cont-c #cero:hover{
+    color: #000;
+}
+
+#pantalla{
+    display: block;
+    text-align: right;
+    width: 95%;
+    height: 80px;
+    font-size: 40px;
+    background: #2d2b37;
+    padding: 10px;
+    color: #fff;
+    margin-top: 30px;
+}
+
